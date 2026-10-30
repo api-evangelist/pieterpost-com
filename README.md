@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pieterpost-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pieterpost.com/
+PieterPost provides an online service that enables users to compose letters and postcards in a web interface or upload PDF/image files, then have them printed, stamped, and mailed through postal partners. The platform handles address entry, bulk mailing, and offers API endpoints for creating orders, adding test credits, checking order status, and managing address books, eliminating the need for physical stamps or visits to a post office. It serves both personal and business communications, supporting international delivery and offering features such as registered mail, tracking, and secure handling of content.
+
+**Areas:** Mail · Postal · Printing · API · Letters · Postcards
+
+## pieterpost-com on APIs.io
+
+Everything profiled for pieterpost-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pieterpost-com/](https://apis.io/providers/pieterpost-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [pieterpost-com API](https://apis.io/apis/pieterpost-com/pieterpost-com-api/) — pieterpost-com API as documented publicly: 6 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1OrdersOrderidResponse](https://apis.io/schemas/pieterpost-com/pieterpost-com-get-v1-orders-orderid-response/)
+- [GetV1WalletResponse](https://apis.io/schemas/pieterpost-com/pieterpost-com-get-v1-wallet-response/)
+- [PostV1CheckoutLinksRequest](https://apis.io/schemas/pieterpost-com/pieterpost-com-post-v1-checkout-links-request/)
+- [PostV1CreditsTopupsResponse](https://apis.io/schemas/pieterpost-com/pieterpost-com-post-v1-credits-topups-response/)
+- [PostV1OrdersRequest](https://apis.io/schemas/pieterpost-com/pieterpost-com-post-v1-orders-request/)
+- [PostV1OrdersResponse](https://apis.io/schemas/pieterpost-com/pieterpost-com-post-v1-orders-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pieterpost Com Context](https://apis.io/jsonld/pieterpost-com/pieterpost-com-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Pieterpost Com Openapi Overlay](https://apis.io/overlays/pieterpost-com/pieterpost-com-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [pieterpost-com API Rules](https://apis.io/rules/pieterpost-com/pieterpost-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pieterpost Com Authentication](https://apis.io/security/pieterpost-com/pieterpost-com-authentication/)
+- [Pieterpost Com Domain Security](https://apis.io/security/pieterpost-com/pieterpost-com-domain-security/)
+- [Pieterpost Com Vulnerability Disclosure](https://apis.io/security/pieterpost-com/pieterpost-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Pieterpost Com Scopes](https://apis.io/scopes/pieterpost-com/pieterpost-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Pieterpost Com Plans Pricing](https://apis.io/plans/pieterpost-com/pieterpost-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pieterpost.com/)
+- [Documentation](https://pieterpost.com/api/docs.md)
+- [Getting started](https://pieterpost.com/api/docs.md)
+- [API reference](https://pieterpost.com/api/)
+- [Sign up](https://pieterpost.com/en/registered-mail-delivery-times/)
+- [Support](https://pieterpost.com/en/help/)
+- [Changelog](https://pieterpost.com/en/changelog/)
+- [Terms of service](https://pieterpost.com/en/terms/)
+- [Privacy policy](https://pieterpost.com/en/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 53.6** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 55.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 34.2 |
+
+**Agent readiness 31.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pieterpost-com/](https://apis.io/providers/pieterpost-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for pieterpost-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pieterpost-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
